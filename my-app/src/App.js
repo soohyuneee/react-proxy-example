@@ -6,7 +6,8 @@ import TodoTable from "./components/TodoTable";
 import DisplayBoard from "./components/DisplayBoard";
 import CreateBook from "./components/CreateBook";
 import CreateTodo from "./components/CreateTodo";
-import {getAllBooks, createBook, createTodos, getAllTodos} from "./services/BookService";
+import {getAllBooks, createBook} from "./services/BookService";
+import {getAllTodos, createTodos} from "./services/TodoService";
 import Footer from "./components/Footer";
 
 function App() {
